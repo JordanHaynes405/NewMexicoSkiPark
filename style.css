@@ -1,0 +1,119 @@
+body {
+    background-image: url(Snow.jpg);    
+    width: 100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+h1 {
+    background-color: white;
+    font-size:300%;
+    display: block;
+    margin: 5% 5%;
+    text-align: center;
+    text-shadow: -.5px .5px grey;
+    box-shadow: -2px 2px grey;
+    border-radius: 10px;
+    margin: 2% 5%;
+}
+h2 {
+    background-color: white;
+    display: block;
+    margin: 5% 5%;
+    text-align: center;
+    text-shadow: -.5px .5px grey;
+    box-shadow: -2px 2px grey;
+    border-radius: 10px;
+    margin: 2% 5%;
+}
+nav {
+    font-weight: bold;
+    float: left;
+    margin: 3% 10%;
+}
+a {
+    float: left;
+    font-weight: bold;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px grey;
+    padding: 0px 5px;
+    margin:0px 5px;
+}
+a:hover{
+    background-color:lightgrey;
+}
+#SignInContainer {
+    float: left;
+    margin: 20% 43%;
+    font-weight: bold;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 2px grey;
+}
+#usersignin{
+    padding:5px;
+    text-align:left;
+}
+#Username, #Passowrd {
+    padding: 2px;
+}
+.BodyContainer{
+    background-color:white;
+    float:left;
+    margin:5% 35%;
+    padding:25px;
+}
+#MainPageHeaders{
+    font-weight:bold;
+}
+#AttendanceExceptionIMG{
+    content:url(AttendanceExceptionReport.jpg);
+    height:300px;
+    width:auto;
+    display:block;
+    float:left;
+}
+#AttendanceVarianceIMG {
+    content: url(AttendanceVarianceReport.jpg);
+    height: 300px;
+    width: auto;
+    display: block;
+    float: left;
+}
+#SummaryAttendance {
+    content: url(SummaryAttendanceReport.jpg);
+    height: 300px;
+    width: auto;
+    display: block;
+    float: left;
+}
+#Projections {
+    content: url();
+    height: 300px;
+    width: auto;
+    display: block;
+    float: left;
+}
+#LiftLoadIMG {
+    content: url(LiftLoadReport.jpg);
+    align-content: center;
+    display: block;
+    height: 100px;
+    width: auto;
+    float: left;
+    margin: 2% 20%;
+}
+#SummaryRevenueIMG{
+    content:url(SummaryRevenueReport.jpg);
+    height:300px;
+    width:auto;
+    display:block;
+    float:left;
+}
+
+
